@@ -1,0 +1,28 @@
+{
+  "name": "fmart-api",
+  "version": "1.0.0",
+  "description": "This is the API of french online shop for sell products to korean market.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.17.3"
+  },
+  "keywords": [],
+  "author": "VELLA CYRIL",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^8.0.1",
+    "passport": "^0.4.1",
+    "passport-kakao": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
